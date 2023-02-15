@@ -1,0 +1,52 @@
+.container {
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 16px;
+}
+
+#timeline {
+  grid-column: 3/-1;
+  grid-row: 1/-1;
+}
+
+.bg {
+  background-color: gainsboro;
+  padding: 32px 16px 0px 16px;
+}
+
+.bi {
+  font-size: 32px;
+}
+
+h1 {
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.305);
+  color: blue;
+}
+
+#goals .d-flex {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.305);
+}
+
+#timeline .d-flex {
+  flex-wrap: wrap;
+}
+
+.circle {
+  font-size: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+
+.time {
+  border-bottom: dashed 1px rgb(20, 136, 203);
+}

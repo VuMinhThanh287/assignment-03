@@ -1,0 +1,64 @@
+@media screen and (max-width: 992px) {
+  #nav-bar .container img {
+    display: none;
+  }
+
+  .img-banner {
+    height: auto;
+  }
+  #banner {
+    top: 10vw;
+  }
+
+  #banner h1 {
+    font-size: 5vw;
+    margin-bottom: 0;
+  }
+  #banner span {
+    font-size: 2vw;
+  }
+
+  #nav-bar a:nth-child(5) {
+    border-right: 1px solid rgba(68, 68, 68, 0.138);
+  }
+
+  #nav-bar a:nth-child(2) {
+    padding: 3% 2%;
+    border-right: 1px solid rgba(68, 68, 68, 0.138);
+    margin-right: 40px;
+  }
+
+  #target {
+    padding-left: calc(25vw - 184px);
+  }
+
+  .tieude {
+    flex-direction: column-reverse;
+  }
+
+  #job-info h4 {
+    margin-top: 0;
+    margin-bottom: 32px;
+  }
+
+  .cc {
+    flex-direction: column;
+  }
+
+  .cc img {
+    width: 30vw;
+    height: fit-content;
+  }
+
+  .at {
+    width: 25vw;
+  }
+
+  .ic {
+    margin-top: 32px;
+    align-self: flex-end;
+  }
+  .ha {
+    height: 46rem;
+  }
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width: 992px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .d-flex {
+    flex-direction: column;
+  }
+
+  .bi {
+    align-self: center;
+  }
+}

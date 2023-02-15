@@ -1,0 +1,79 @@
+@media screen and (max-width: 768px) {
+  #nav-bar {
+    text-align: start;
+  }
+
+  #nav-bar .container {
+    padding-left: 32px;
+    margin: 0;
+  }
+
+  #nav-bar a {
+    display: block;
+    border: none;
+    padding-left: 0;
+  }
+
+  #nav-bar a:nth-child(2) {
+    padding-left: 0;
+  }
+
+  #nav-bar a:nth-child(5) {
+    border: none;
+  }
+
+  #nav-bar a:nth-child(2) {
+    border: none;
+    margin-right: 0px;
+  }
+
+  #about .container-x {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  #target {
+    padding-left: 32px;
+  }
+
+  #java {
+    border-left: none;
+  }
+
+  #data {
+    border-top: none;
+  }
+
+  .cc {
+    border-bottom: 1px solid #ee1607;
+  }
+
+  .cc img {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .at {
+    width: fit-content;
+  }
+
+  .ha {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+
+  .tieude {
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  #job-info h4 {
+    margin-top: 64px;
+    margin-bottom: 32px;
+  }
+
+  .ic {
+    margin-top: 0;
+    align-self: unset;
+  }
+}
